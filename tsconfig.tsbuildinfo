@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/projects.tsx","./src/components/techstackicons.tsx","./src/hooks/useintersectionobserver.tsx","./src/pages/home.tsx","./src/router/approuter.tsx"],"version":"5.7.3"}

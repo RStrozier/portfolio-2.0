@@ -5,8 +5,15 @@
 }
 
 .black-bubble {
-  background: rgba(61, 58, 58, 0.8); 
+  background: rgba(44, 42, 42, 0.815); 
   border-radius: 20px; 
-  padding: 1rem; 
+  padding: 1.125rem; 
   color: black; 
+}
+
+.white-bubble {
+  background: rgba(242, 245, 245, 0.873); 
+  border-radius: 20px; 
+  padding: 2rem; 
+  color: black;
 }

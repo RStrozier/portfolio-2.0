@@ -2,13 +2,15 @@
     "projects": [
         {
             "name": "Password Generator",
-            "description": "My first project. Everyone must start somewhere. I created a basic password generator.",
-            "url": "https://rstrozier.github.io/Password-Generator/"
+            "description": "My first project. Everyone must start somewhere right?! I created a basic password generator.",
+            "url": "https://rstrozier.github.io/Password-Generator/",
+            "year": 2022
         },
         {
             "name": "Budget Breaker",
             "description": "My first group project, I worked with two other people with at a coding bootcamp. This gave me collobarative skills in a development enviornment for the first time.",
-            "url": "https://rstrozier.github.io/Budget-Breaker/"
+            "url": "https://rstrozier.github.io/Budget-Breaker/",
+            "year": 2022
         }
     ]
 }

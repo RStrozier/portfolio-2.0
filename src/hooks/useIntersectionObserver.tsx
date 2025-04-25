@@ -11,7 +11,7 @@ const useIntersectionObserver = () => {
       ([entry]) => {
         setIsVisible(entry.isIntersecting);
       },
-    //   at 50% of the viewport show...
+    //   at 60% of the viewport show...
       { threshold: 0.5 } 
     );
 

@@ -14,19 +14,21 @@ const Projects = () => {
             key={index}
             // Attach the ref to the current project
             ref={projectRef} 
-            className="min-h-screen flex flex-col justify-center items-center text-center"
+            className="min-h-screen flex flex-col justify-center items-center text-center p-2"
           >
             {/** Animate each project individually */}
             <motion.div
             // Start off-screen with opacity 0
-              initial={{ opacity: 0, y: 50 }} 
+              initial={{ opacity: 0}} 
               // Animate when visible
-              animate={isVisible ? { opacity: 1, y: 0 } : {}} 
+              animate={isVisible ? { opacity: 1 } : {}} 
               transition={{ duration: 1 }}
-              className="flex flex-col items-center"
+              className="flex flex-col items-center white-bubble mx-4"
             >
-              <div className="text-3xl font-bold mb-4 text-yellow-400">{project.name}</div>
-              <div className="text-lg mb-4 mx-6">{project.description}</div>
+              <div className="text-3xl font-bold mb-4 text-green-700">{project.name}</div>
+              <div className="text-lg mb-4 mx-6 roboto-mono text-blue-800 text-sm">Created in {project.year}</div>
+              <div className="text-lg mb-4 mx-6 roboto-mono">{project.description}</div>
+             
               <a
                 href={project.url}
                 target="_blank"
