@@ -1,0 +1,14 @@
+{
+    "projects": [
+        {
+            "name": "Password Generator",
+            "description": "My first project",
+            "url": "https://rstrozier.github.io/Password-Generator/"
+        },
+        {
+            "name": "Budget Breaker",
+            "description": "My first group project",
+            "url": "https://rstrozier.github.io/Budget-Breaker/"
+        }
+    ]
+}

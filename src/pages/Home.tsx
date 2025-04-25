@@ -1,15 +1,20 @@
 import TestImage from '../assets/Test-Image.png'
+import { motion } from 'framer-motion';
+import ProjectContainer from '../components/ProjectContainer';
 
 const Home = () => {
   return (
    <>
-   <div className="text-2xl text-blue-400">Welcome to my Timeline</div>
+   <motion.div
+   initial={{ opacity: 0 }}
+   animate={{ opacity: 1 }}
+   transition={{ duration: 1.5 }}
+   className="text-2xl text-blue-400">
+    Welcome to my Timeline
+   </motion.div>
+
    <div className="div">Today you will learn about me and see my projects</div>
-   <div className="div">Installed : Framer motion </div>
-     <div className="div">Installed: React scroll parallax</div>
-     <div className="div">Installed: React Helmet</div>
-     <div className="div">Installed: React Icons</div>
-     <div className="div">Installed: Tailwind CSS</div>
+    <ProjectContainer />
      <img src={TestImage}>
      </img>
    </>
