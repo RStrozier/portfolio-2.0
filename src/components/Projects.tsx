@@ -27,7 +27,7 @@ const Projects = () => {
             key={index}
             // Attach the ref to the current project
             ref={projectRef}
-            className="min-h-screen flex flex-col justify-center items-center text-center p-1 py-2 mx-4"
+            className="min-h-screen flex flex-col justify-center items-center text-center p-1 py-2 mx-2 md:mx-4"
           >
             {/** Animate each project individually */}
             <motion.div
@@ -37,14 +37,14 @@ const Projects = () => {
               transition={{ duration: 1 }}
               className="flex flex-col items-center white-bubble"
             >
-              <div className="text-3xl font-bold mb-4 text-green-700">{project.name}</div>
-              <div className="text-lg mb-1 mx-2 roboto-mono text-blue-900 text-sm">
+              <div className="open-sans text-3xl font-bold mb-3 text-green-700">{project.name}</div>
+              <div className="text-lg mb-2 mx-2 roboto-mono text-blue-900 text-sm">
                 Created in {project.year}
               </div>
-              <div className="text-lg mb-4 mx-2 roboto-mono text-yellow-900 text-sm">
+              <div className="sansation-bold text-lg mb-4 mx-2 roboto-mono text-yellow-900 text-base">
                 {project.language}
               </div>
-              <div className="text-lg mb-4 mx-1 roboto-mono">{project.description}</div>
+              <div className="text-lg mb-4 p-1 roboto-mono">{project.description}</div>
 
               <a
                 href={project.url}
