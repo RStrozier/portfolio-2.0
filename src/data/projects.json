@@ -4,13 +4,29 @@
             "name": "Password Generator",
             "description": "My first project. Everyone must start somewhere right?! I created a basic password generator.",
             "url": "https://rstrozier.github.io/Password-Generator/",
-            "year": 2022
+            "year": 2022,
+            "language": "HTML, CSS, Javascript"
         },
         {
             "name": "Budget Breaker",
             "description": "My first group project, I worked with two other people with at a coding bootcamp. This gave me collobarative skills in a development enviornment for the first time.",
             "url": "https://rstrozier.github.io/Budget-Breaker/",
-            "year": 2022
+            "year": 2022,
+            "language": "HTML, CSS, Javascript"
+        },
+        {
+            "name": "Love Compatibility",
+            "description": "My first attempt at using an API in a project. This was my first custom cursor. Looking back this is pretty bad, but how else can you tell of growth without a beginning?",
+            "url": "https://rstrozier.github.io/love-compatibility/",
+            "year": 2023,
+            "language": "ReactJS, CSS, Javascript"
+        },
+        {
+            "name": "First Virtual Enviornment",
+            "description": "Yes this works on mobile and web! My first attempt at creating a virtual enviornment using a language called A-Frame.",
+            "url": "https://rstrozier.github.io/first-a-frame/",
+            "year": 2023,
+             "language": "A-Frame, CSS, Javascript"
         }
     ]
 }
