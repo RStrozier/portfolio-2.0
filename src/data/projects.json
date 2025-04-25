@@ -2,12 +2,12 @@
     "projects": [
         {
             "name": "Password Generator",
-            "description": "My first project",
+            "description": "My first project. Everyone must start somewhere. I created a basic password generator.",
             "url": "https://rstrozier.github.io/Password-Generator/"
         },
         {
             "name": "Budget Breaker",
-            "description": "My first group project",
+            "description": "My first group project, I worked with two other people with at a coding bootcamp. This gave me collobarative skills in a development enviornment for the first time.",
             "url": "https://rstrozier.github.io/Budget-Breaker/"
         }
     ]
