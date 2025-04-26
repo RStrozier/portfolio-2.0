@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import Projects from '../components/Projects';
 import { TbBrandBluesky } from "react-icons/tb";
-import BackgroundImage from '../assets/background-2.png'
+import BackgroundImage from '../assets/imgs/background-2.png'
 
 const ProjectPage = () => {
     return (

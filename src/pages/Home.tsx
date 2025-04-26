@@ -1,4 +1,4 @@
-import TestImage from '../assets/Test-Image.png';
+import TestImage from '../assets/imgs/Test-Image.png';
 import Welcome from '../components/Welcome';
 import StoryContainer from '../containers/StoryContainer';
 

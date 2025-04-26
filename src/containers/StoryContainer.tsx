@@ -5,6 +5,9 @@ import useIntersectionObserver from "../hooks/useIntersectionObserver";
 import { HiCursorClick } from "react-icons/hi";
 import StorySlides from "../components/StorySlides";
 import { Project } from "../data/types";
+import LeftHorizontalSlide from "./animations/LeftHorizontalSlide";
+import RightHorizontalSlide from "./animations/RightHorizontalSlide";
+import UpVerticialSlide from "./animations/UpVerticialSlide";
 
 // for typescript , set the types from the json data to the story data info and project info
 const stories: StorySlides[] = storyData.stories;
@@ -29,9 +32,9 @@ const StoryContainer = () => {
           initial={{ opacity: 0 }}
           animate={isVisible ? { opacity: 1 } : {}}
           transition={{ duration: 1 }}
-          className="flex flex-col items-center story-bubble-red w-3/4"
+          className="flex flex-col items-center red-bubble w-3/4 md:mx-6"
         >
-          <div className="sansation-bold text-lg mb-4 mx-2 roboto-mono text-base">
+          <div className="sansation-bold text-lg p-2 roboto-mono text-base">
             {stories[index].text}
           </div>
           {stories[index].image}
@@ -81,17 +84,65 @@ const StoryContainer = () => {
         </motion.div>
       </div>
       </>
+
+      
     );
   };
+
+  
 
   return (
     <div>
       {/* Render specific stories and projects */}
-      {renderStory(0)}
-      {renderProject(0)}
-      {renderProject(1)}
+
+      {/* bootcamp projects */}
+      <UpVerticialSlide>
+        <div className="bg-blue-400">
+        {renderStory(0)}
+        </div>
+      </UpVerticialSlide>
+
+      <LeftHorizontalSlide>
+        {renderProject(0)}
+      </LeftHorizontalSlide>
+      <RightHorizontalSlide>
+        {renderProject(1)}
+      </RightHorizontalSlide>
+
+       {/* first solo development project api */}
       {renderStory(1)}
       {renderProject(2)}
+
+      {/* VR Projects */}
+      {renderStory(2)}
+      {renderProject(3)}
+
+      {/* first custom domain and deployment */}
+      {renderStory(3)}
+      {renderProject(4)}
+
+      {/* digital art */}
+      {renderStory(4)}
+      {/* Projects A-C */}
+      {renderProject(5)}
+      {renderProject(6)}
+      {renderProject(7)}
+
+      {/* Two random projects */}
+      {renderStory(5)}
+      {renderProject(8)}
+      {renderProject(9)}
+
+      {/* custom deployments */}
+      {renderStory(6)}
+      {renderProject(10)}
+      {renderProject(11)}
+      {renderProject(12)}
+      {renderProject(13)}
+
+      {/* latest projects */}
+      {renderStory(7)}
+      {renderProject(14)}
     </div>
   );
 };

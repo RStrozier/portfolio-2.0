@@ -16,17 +16,96 @@
         },
         {
             "name": "Love Compatibility",
-            "description": "My first attempt at using an API in a project. This was my first custom cursor. Looking back this is pretty bad, but how else can you tell of growth without a beginning?",
+            "description": "My first attempt at using an API. This was also my first custom cursor and first push to github with a personal project.",
             "url": "https://rstrozier.github.io/love-compatibility/",
             "year": 2023,
-            "language": "ReactJS, CSS, Javascript"
+            "language": "HTML, CSS, Javascript"
         },
         {
             "name": "First Virtual Enviornment",
-            "description": "Yes this works on mobile and web! My first attempt at creating a virtual enviornment using a language called A-Frame.",
+            "description": "This works on mobile and web. I STILL love this project! My first attempt at creating a virtual enviornment using a language called A-Frame.",
             "url": "https://rstrozier.github.io/first-a-frame/",
             "year": 2023,
              "language": "A-Frame, CSS, Javascript"
+        },
+        {
+            "name": "First Custom Deployment",
+            "description": "Fun fact, it took me more than 40 attempts and 2 weeks to publish my custom portfolio through github pages. I am proud of myself that I never gave up!",
+            "url": "https://rstrozier.github.io/rashida-strozier/",
+            "year": 2023,
+             "language": "React, Bootstrap, Javascript"
+        },
+        {
+            "name": "Project A",
+            "description": "A series of images and digital art, with a poem included written by me. I did not understand dynamic sizing at the time - best viewed on web fullscreen.",
+            "url": "https://rstrozier.github.io/projectA/",
+            "year": 2023,
+             "language": "React, Bootstrap, Javascript"
+        },
+        {
+            "name": "Project B",
+            "description": "By far my favorite of the 'Project' series. The visuals at the end inspire me to see the world differently.",
+            "url": "https://rstrozier.github.io/projectB/",
+            "year": 2023,
+             "language": "React, Bootstrap, Javascript"
+        },
+        {
+            "name": "Project C",
+            "description": "A simple bubble that grows on scroll and appears with animation.",
+            "url": "https://rstrozier.github.io/projectC/",
+            "year": 2023,
+             "language": "CSS, Javascript"
+        },
+        {
+            "name": "Bubble Breaker",
+            "description": "Allows the user to play custom animations. Select the number of bubbles, colors, and the direction of movement.",
+            "url": "https://rstrozier.github.io/projectA/",
+            "year": 2023,
+             "language": "HTML Canvas, Javascript"
+        },
+        {
+            "name": "Functional To Do List",
+            "description": "Although barebones, it allows users to add, delete, and mark complete task through a task list.",
+            "url": "https://rstrozier.github.io/To-Do-List/",
+            "year": 2023,
+             "language": "React, Javascript"
+        },
+        {
+            "name": "The True Policy",
+            "description": "A live website on custom domain that summerized political news stories around Ohio in 2023. I plan on updating this project in the near future - stay tuned!",
+            "url": "https://www.thetruepolicy.com",
+            "year": 2023,
+             "language": "React, Bootstrap"
+        },
+        {
+            "name": "Custom Happy Birthday Website",
+            "description": "A live website deployed to a custom domain, a good friend celebrated her birthday, and I created a video and all of the graphics.",
+            "url": "https://www.happybirthdayteresa.com/",
+            "year": 2024,
+             "language": "React, Typescript, Tailwind CSS"
+        },
+        {
+            "name": "My Boss is Complicated",
+            "description": "My boss in my first development role quickly became a mentor that I truly value and cherish. His 15+ years of development experience helped accelerate my growth as a developer. To pay him tribute, I created a website with memes to make fun of him.",
+            "url": "https://www.kyleiscomplicated.com/",
+            "year": 2024,
+             "language": "React, Typescript, Tailwind CSS"
+        },
+        {
+            "name": "Pulse Playlist",
+            "description": "My most complex project to date. A live custom domain website using a custom algorithm, I use the users mood plus Spotify API history to create a custom playlist. If you would like full access will need to ask. ",
+            "url": "https://www.pulseplaylist.com/",
+            "year": 2024,
+             "language": "React, Typescript, Tailwind CSS, Spotify API"
+        },
+        {
+            "name": "Lunaris",
+            "description": "Using firebase storage for the backend, a series of custom dashboards to determine networth based on bills, savings, bank accounts, etc.",
+            "url": "https://rstrozier.github.io/lunaris-2/",
+            "year": 2024,
+             "language": "React, Firebase, Typescript, Tailwind CSS"
         }
     ]
 }
+
+
