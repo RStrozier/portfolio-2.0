@@ -8,6 +8,13 @@ import { Project } from "../data/types";
 import LeftHorizontalSlide from "./animations/LeftHorizontalSlide";
 import RightHorizontalSlide from "./animations/RightHorizontalSlide";
 import UpVerticialSlide from "./animations/UpVerticialSlide";
+import italyPicture from "../assets/imgs/IMG_8145.jpeg"
+import designBackgroundPicture from "../assets/imgs/design-background-2.png"
+import reactPicture from "../assets/imgs/IMG_4380.jpeg"
+import DownVerticialSlide from "./animations/DownVerticalSlide";
+import PixelationReveal from "./animations/PixelationReveal";
+import RotateReveal from "./animations/RotateReveal";
+
 
 // for typescript , set the types from the json data to the story data info and project info
 const stories: StorySlides[] = storyData.stories;
@@ -97,7 +104,10 @@ const StoryContainer = () => {
 
       {/* bootcamp projects */}
       <UpVerticialSlide>
-        <div className="bg-blue-400">
+        <div
+        style={{ backgroundImage: `url(${italyPicture})`}}
+        className="bg-cover bg-center bg-no-repeat opacity-95 min-h-screen flex items-center justify-center"
+        >
         {renderStory(0)}
         </div>
       </UpVerticialSlide>
@@ -110,11 +120,25 @@ const StoryContainer = () => {
       </RightHorizontalSlide>
 
        {/* first solo development project api */}
-      {renderStory(1)}
-      {renderProject(2)}
+       <DownVerticialSlide>
+       {renderStory(1)}
+       </DownVerticialSlide>
+       <RightHorizontalSlide>
+        {renderProject(2)}
+       </RightHorizontalSlide>
 
       {/* VR Projects */}
-      {renderStory(2)}
+      <UpVerticialSlide>
+      <div
+        className="bg-cover bg-center bg-black bg-no-repeat opacity-95 min-h-screen flex items-center justify-center"
+        style={{ backgroundImage: `url(${designBackgroundPicture})`}}
+        >     
+      <PixelationReveal>
+        {renderStory(2)}
+      </PixelationReveal>
+      </div>
+      </UpVerticialSlide>
+`
       {renderProject(3)}
 
       {/* first custom domain and deployment */}
@@ -124,25 +148,45 @@ const StoryContainer = () => {
       {/* digital art */}
       {renderStory(4)}
       {/* Projects A-C */}
-      {renderProject(5)}
-      {renderProject(6)}
-      {renderProject(7)}
+      <RotateReveal>
+        {renderProject(5)}
+        </RotateReveal>
+      <RotateReveal>
+        {renderProject(6)}
+      </RotateReveal>
+      <RotateReveal>
+        {renderProject(7)}
+      </RotateReveal>
 
-      {/* Two random projects */}
+      {/* The beginning of react */}
       {renderStory(5)}
+
       {renderProject(8)}
       {renderProject(9)}
+      {renderProject(10)}
+
 
       {/* custom deployments */}
-      {renderStory(6)}
-      {renderProject(10)}
+      <div
+      className="bg-cover bg-center bg-black bg-no-repeat opacity-95 min-h-screen flex items-center justify-center"
+      style={{ backgroundImage: `url(${reactPicture})`}}
+      >  
+        <PixelationReveal>
+        {renderStory(6)}
+        </PixelationReveal>
+      </div>
       {renderProject(11)}
       {renderProject(12)}
       {renderProject(13)}
-
-      {/* latest projects */}
-      {renderStory(7)}
       {renderProject(14)}
+
+      {/* 2025 latest projects */}
+      {renderStory(7)}
+      {renderProject(15)}
+      {renderProject(16)}
+
+      {/* conclusion */}
+      {renderStory(8)}
     </div>
   );
 };

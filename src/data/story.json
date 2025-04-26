@@ -6,7 +6,7 @@
             "order": 1
         },
         {
-            "text": "After completing the 6 month program, I became a terrible fake it until you make it full stack developer. But we all start somewhere right? So connecting to a free API, i created my first solo project: Love compatibility.",
+            "text": "After completing the month program, I became an overly confident fake-it-until-you-make-it full stack developer. Using a free API, I created the project 'Love compatibility'. During this time, I mastered HTML and vanilla CSS.",
             "image": "",
             "order": 2
         },
@@ -16,29 +16,36 @@
             "order": 3
         },
         {
-            "text": "Now I noticed the value in purchasing domain names. I now own more than 30. But the first one I bought was my own name (after a political smear campaign story I was told) - here is my very first portfolio prior to this one. This was also my first React portfolio.",
+            "text": "I quickly realized the importance of owning domain names after hearing about a political smear campaign story. This inspired me to purchase my first domain: my own name. Since then, I've acquired more than 30 domains. My very first React portfolio was then created, marking the beginning of my epic journey in web development.",
             "image": "",
             "order": 4
         },
         {
-            "text": "Here is the part in my journey where digital art began. Creating custom domains and images, I began creating digital art porfolios.",
+            "text": "Here is the part in my journey where digital art began. I started creating custom domains and digital art portfolios, designing unique images using Adobe Creative Cloud. To bring these creations to life, I began exploring frameworks like Framer Motion and AOS, showcasing digital images in innovative and dynamic ways.",
             "image": "",
             "order": 5
         },
+  
         {
-            "text": "This is where I began to solidify myself in React and Typescript and focused my growing efforts on these frameworks.",
+            "text": "Now I know what you're thinking - at what point do you get good?! One day I woke up and things began to click within React and design. There were a few projects from 2023 that deepened my fundamentals like these.",
             "image": "",
             "order": 6
         },
         {
-            "text": "Now I know what you're thinking - at what point do you get good?! WELL...here we go. One day I woke up and things began to click within React and design.",
+            "text": "In 2023 I secured my first developer position at a church in Columbus, Ohio. By April 2024, I received a full ride ticket to the 2024 Las Vegas React Conference hosted by Meta and Callstack. This experience marked a turning point, as I made connections and solidified my expertise in frameworks like React and TypeScript.",
             "image": "",
-            "order": 7
+            "order": 8
         },
         {
             "text": "This brings us to 2025, modern day. After creating a digital agency at the beginning of the year, I decided to rededicate my time to myself and my portfolio. I will continue to push out more projects, more github commits, and am currently learning Python. I will include a python project soon.",
             "image": "",
-            "order": 8
+            "order": 7
+        },
+ 
+        {
+            "text": "Thanks so much for viewing! Check out more information in my menu including links to some of my personal writings and images. I anticipate more projects like 'ProjectB' and 'Masks', as well as python projects in the future.",
+            "image": "",
+            "order": 9
         }
     ]
 }

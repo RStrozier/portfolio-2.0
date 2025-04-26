@@ -57,6 +57,13 @@
              "language": "CSS, Javascript"
         },
         {
+            "name": "Masks Poem",
+            "description": "An animated version of my favorite poem 'Masks' by Robert Frost. Recognized by Github. Will need to clone down to repository. ",
+            "url": "https://rstrozier.github.io/masks-poem/",
+            "year": 2023,
+             "language": "React, CSS, HTML Canvas, Javascript"
+        },
+        {
             "name": "Bubble Breaker",
             "description": "Allows the user to play custom animations. Select the number of bubbles, colors, and the direction of movement.",
             "url": "https://rstrozier.github.io/projectA/",
@@ -79,7 +86,7 @@
         },
         {
             "name": "Custom Happy Birthday Website",
-            "description": "A live website deployed to a custom domain, a good friend celebrated her birthday, and I created a video and all of the graphics.",
+            "description": "A live website deployed to a custom domain, a good friend celebrated her birthday, and I created a video and all of the graphics within 24 hours.",
             "url": "https://www.happybirthdayteresa.com/",
             "year": 2024,
              "language": "React, Typescript, Tailwind CSS"
@@ -93,17 +100,24 @@
         },
         {
             "name": "Pulse Playlist",
-            "description": "My most complex project to date. A live custom domain website using a custom algorithm, I use the users mood plus Spotify API history to create a custom playlist. If you would like full access will need to ask. ",
+            "description": "My most complex project to date. A live custom domain website using a custom algorithm, I use the users mood plus Spotify API history to create a custom playlist. MUST REQUEST ACCESS. ",
             "url": "https://www.pulseplaylist.com/",
             "year": 2024,
              "language": "React, Typescript, Tailwind CSS, Spotify API"
         },
         {
             "name": "Lunaris",
-            "description": "Using firebase storage for the backend, a series of custom dashboards to determine networth based on bills, savings, bank accounts, etc.",
+            "description": "MUST REQUEST ACCESS. Using firebase storage, a series of custom dashboards to determine networth based on bills, savings, bank accounts, etc.",
             "url": "https://rstrozier.github.io/lunaris-2/",
-            "year": 2024,
-             "language": "React, Firebase, Typescript, Tailwind CSS"
+            "year": 2025,
+             "language": "React, NextJS, Firebase, Typescript, Tailwind CSS"
+        },
+        {
+            "name": "MPSC Entertainment",
+            "description": "My first client under my digital website agency. The site was created by me and maintained at the beginning of 2025.",
+            "url": "https://www.mpscentertainment.com",
+            "year": 2025,
+             "language": "Custom JavaScript and CSS, hosted on Squarespace"
         }
     ]
 }

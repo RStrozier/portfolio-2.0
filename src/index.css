@@ -18,4 +18,8 @@
 
 body {
   overflow-x: hidden;
+  /* This enables the window.scrollTo() */
+  scroll-behavior: smooth;
+  /* prevents overscroll on mobile */
+  overscroll-behavior: none;
 }
