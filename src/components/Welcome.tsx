@@ -19,12 +19,12 @@ const Welcome = () => {
 
                         <Link to="/projects">
                             <button className="open-sans border-1 border-blue-200 text-blue-300 font-semibold text-base mt-3 px-4 py-3 rounded hover:bg-blue-500 hover:text-white hover:cursor-pointer transition duration-300 hover:border-2 hover:border-white">
-                                Jump to Projects
+                                Jump to All Projects
                             </button>
                         </Link>
 
                         <div className="mt-5 p-2 text-white z-10 mx-2 md:mx-5 relative text-base roboto-mono">
-                            This digital portfolio allows you to learn more through a custom interactive story. This is a way to tell my coding journey through digital art. Enjoy your experience and thank you for creating space with me to embrace the journey.
+                            This digital portfolio allows you to learn more through a custom interactive story. This is a way to tell my coding journey through digital art. Enjoy your experience and thank you for creating space to embrace the journey.
                         </div>
 
                         <div className="sansation-bold p-1 z-10 relative text-sm text-gray-200 mt-3">

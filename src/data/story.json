@@ -1,0 +1,15 @@
+{
+    "stories": [
+        {
+            "text": "During a trip to Rome, Italy in 2021, I met a man who told me I needed to create an API. After returning to the states, I enrolled in a coding bootcamp with one sole mission: learn to create an API. During bootcamp I created my first few projects including Password Generator and Budget Breaker",
+            "image": "",
+            "order": 1
+        },
+        {
+            "text": "After completing the 6 month program, I became a terrible fake it until you make it full stack developer. But we all start somewhere right? So connecting to a free API, i created my first solo project: Love compatibility.",
+            "image": "",
+            "order": 2
+        }
+      
+    ]
+}

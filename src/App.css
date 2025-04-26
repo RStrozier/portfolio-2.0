@@ -17,3 +17,10 @@
   padding: 2rem; 
   color: black;
 }
+
+.story-bubble-red {
+  background: rgba(181, 55, 9, 0.9); 
+  border-radius: 20px; 
+  padding: 2rem; 
+  color: white;
+}

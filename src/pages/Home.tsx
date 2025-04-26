@@ -1,6 +1,6 @@
 import TestImage from '../assets/Test-Image.png';
-import Projects from '../components/Projects';
 import Welcome from '../components/Welcome';
+import StoryContainer from '../containers/StoryContainer';
 
 const Home = () => {
   return (
@@ -9,11 +9,7 @@ const Home = () => {
       style={{ backgroundImage: `url(${TestImage})` }}
     >
       <Welcome />
-      <div className="flex justify-center">
-        <div className="w-3/4">
-          <Projects />
-        </div>
-      </div>
+      <StoryContainer />
     </div>
   );
 };

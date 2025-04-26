@@ -1,16 +1,8 @@
 import { motion } from "framer-motion";
-import data from "../data/projects.json"; // JSON import
+import data from "../data/projects.json"; 
 import useIntersectionObserver from "../hooks/useIntersectionObserver";
 import { HiCursorClick } from "react-icons/hi";
-
-// Define the Project interface
-interface Project {
-  name: string;
-  year: number;
-  language: string;
-  description: string;
-  url: string;
-}
+import { Project } from "../data/types";
 
 // Explicitly type the imported data
 const projects: Project[] = data.projects;
